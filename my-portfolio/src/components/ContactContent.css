@@ -1,0 +1,36 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .contact-container h1 {
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3%;
+  }
+  
+  .contact-container .input-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-container .input-group input {
+    width: 48%;
+  }
+  
+  .contact-container textarea {
+    height: 150px;
+    resize: none;
+  }

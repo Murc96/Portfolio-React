@@ -1,0 +1,37 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: 45%;
+    margin: 20px 0;
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .project h2 {
+    margin: 10px 0;
+  }
+  
+  .project p {
+    color: #ccc;
+  }
+  
+
+  @media screen and (max-width: 430px) {
+    .project {
+      width: 100%;
+    }
+  }
